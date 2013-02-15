@@ -17,10 +17,10 @@ http.createServer(function (req, res) {
 	res.writeHead(200, {'Content-Type': 'text/html'}); // prepare response headers
 
 	if (path == "/") {
-		res.end("Hello World. You are requestor # " + counter + ".<br><a href='/page2'>Page 2</a>\n");
+		res.end("If it works, Use it. You are requestor # " + counter + ".<br><a href='/page2'>Page 2</a>\n");
 
 	} else if (path == "/page2") {
-		res.end("This is page 2. <a href='/'>Back.</a>\n"); // send response and close connection	
+		res.end("F a page 2 <a href='/'>Back.</a>\n"); // send response and close connection	
 	}
 
 }).listen(port);
