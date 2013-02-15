@@ -2,7 +2,6 @@
 // Send plain text headers and 'Hello World' to each client
 
 var http = require('http');
-//this line is about "use the environment's assigned port, or else  port 8000"
 var port = process.env.PORT || 8000;
 
 var counter = 0;
